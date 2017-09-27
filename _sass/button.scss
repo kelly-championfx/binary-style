@@ -33,11 +33,11 @@ button {
         background-color: $primaryBrandColor;
     }
     &.button-secondary {
-        background: $fillColor;
-        color: $contentColor;
+        background: $white;
+        color: $primaryBrandColor;
         
         &:active, &:hover, &:visited {
-            background-color: $borderColor;
+            background-color: $fillColor;
         }
     }
 }
